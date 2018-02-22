@@ -6,4 +6,4 @@ scipy
 sklearn
 nltk
 mysqlclient
-urllib
+
