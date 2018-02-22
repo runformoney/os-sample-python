@@ -5,9 +5,7 @@ numpy
 sklearn
 nltk
 mysqlclient
-time
 urllib3
-datetime
 random
 pickle
 re
