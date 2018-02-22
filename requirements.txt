@@ -6,4 +6,11 @@ scipy
 sklearn
 nltk
 mysqlclient
-
+json
+requests
+time
+urllib
+datetime
+random
+pickle
+re
