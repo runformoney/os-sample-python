@@ -6,6 +6,4 @@ sklearn
 nltk
 mysqlclient
 urllib3
-pickle
-re
 pandas
