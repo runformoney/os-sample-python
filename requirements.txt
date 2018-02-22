@@ -8,9 +8,11 @@ nltk
 mysqlclient
 json
 requests
-time
 urllib
+time
+urllib3
 datetime
 random
 pickle
 re
+pandas
