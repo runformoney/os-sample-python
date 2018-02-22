@@ -2,13 +2,11 @@ gunicorn
 Flask
 requests
 numpy
-scipy
 sklearn
 nltk
 mysqlclient
 json
 requests
-urllib
 time
 urllib3
 datetime
