@@ -6,7 +6,6 @@ sklearn
 nltk
 mysqlclient
 json
-requests
 time
 urllib3
 datetime
