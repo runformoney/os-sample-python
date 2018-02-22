@@ -6,7 +6,6 @@ sklearn
 nltk
 mysqlclient
 urllib3
-random
 pickle
 re
 pandas
