@@ -1,2 +1,8 @@
 gunicorn
 Flask
+requests
+numpy
+scipy
+sklearn
+nltk
+MySQL
