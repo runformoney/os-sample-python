@@ -5,6 +5,6 @@ numpy
 scipy
 sklearn
 nltk
-MySQL
+mysqlclient
 urllib3
 pandas
