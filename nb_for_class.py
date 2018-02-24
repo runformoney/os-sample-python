@@ -2,6 +2,8 @@ import pandas as pd
 import pickle
 from sklearn.feature_extraction.text import CountVectorizer
 import re
+import nltk
+nltk.download()
 from nltk.corpus import stopwords
 from nltk.stem.porter import PorterStemmer
 
