@@ -8,7 +8,7 @@ class DBHelper:
         global conn
         db = MySQLdb.connect(host="172.30.49.175", port = 3306, user = "userYDT", passwd = "esSRi6Uf0EAfW02Q", db = "sampledb")
         conn = db.cursor()
-        con.query('SET GLOBAL connect_timeout=100000')
+        conn.query('SET GLOBAL connect_timeout=100000')
         print("Connection with DB successfull")
     def setup(self):
         tblstmt ="CREATE TABLE IF NOT EXISTS items (description char(255), owner char(50))"
