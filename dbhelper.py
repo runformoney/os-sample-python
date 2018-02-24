@@ -9,10 +9,9 @@ class DBHelper:
         db = MySQLdb.connect(host="172.30.49.175", port = 3306, user = "userYDT", passwd = "esSRi6Uf0EAfW02Q", db = "sampledb",connect_timeout=28800)
         conn = db.cursor()
         print("Connection with DB successfull")
-
-        def setup(self):
-        tblstmt = "CREATE TABLE IF NOT EXISTS items (description char(255), owner char(50))"
-        tblstmt2 = "CREATE TABLE IF NOT EXISTS cases (ticket_no char(50), log_date char(50), owner char(50), subject char(50), detail char(50),assignee char(50), department char(50), owner_fname char(50), owner_lname char(50), owner_phn char(10), owner_email char(50), owner_loc char(10), priority char(2), whd_ticket_id INT)"
+    def setup(self):
+        tblstmt ="CREATE TABLE IF NOT EXISTS items (description char(255), owner char(50))"
+        tblstmt2 ="CREATE TABLE IF NOT EXISTS cases (ticket_no char(50), log_date char(50), owner char(50), subject char(50), detail char(50),assignee char(50), department char(50), owner_fname char(50), owner_lname char(50), owner_phn char(10), owner_email char(50), owner_loc char(10), priority char(2), whd_ticket_id INT)"
         # itemidx = "CREATE INDEX IF NOT EXISTS itemIndex ON items (description ASC)"
         # ownidx = "CREATE INDEX IF NOT EXISTS ownIndex ON items (owner ASC)"
         conn.execute(tblstmt)
