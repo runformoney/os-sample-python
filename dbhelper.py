@@ -6,10 +6,7 @@ class DBHelper:
         # self.dbname = dbname
         global db
         global conn
-        db = MySQLdb.connect(host="172.30.76.229", port = 3306, user = "userCL4", passwd = "orVrVQUUJAG0nsQR", db = "sampledb",connect_timeout=28800)
-        #db = MySQLdb.connect(host="172.30.115.81", port=3306, user="userXGB", passwd=" qkBjP1g0RvBYu6QY", db="sampledb")
-        #db = MySQLdb.connect(host="172.30.115.81", port=3306, user="userRTL", passwd="eNU1gYbC1EYLe6gN", db="sampledb")
-        #db = MySQLdb.connect(host="localhost", port=3306, user="root", passwd="admin", db="sampledb")
+        db = MySQLdb.connect(host="172.30.49.175", port = 3306, user = "userYDT", passwd = "esSRi6Uf0EAfW02Q", db = "sampledb",connect_timeout=28800)
         conn = db.cursor()
         print("Connection with DB successfull")
 
